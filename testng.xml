@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="reusableComponents.ListenersImplementation" />
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/jofen/Desktop/anu testing/corejava/Vehicle_Insurance_DDD_POM">
+        <classes>
+            <class name="insuranceCalculation_Motorcycle.EndToEndTestMotorcycle"/>
+        </classes>
+    </test> <!-- Test-->
+</suite> <!--suite-->
